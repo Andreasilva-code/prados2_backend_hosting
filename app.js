@@ -35,8 +35,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-// Configuración  
-app.set('port', config.app.port || 3001); // Usando tu objeto config
+// Seteamos el puerto desde nuestro objeto config
+app.set('port', config.app.port);
+
+// ... resto de tus middlewares (cors, express.json, etc.)
+
 
 // Rutas URL
 app.use('/api/arrendatario', arrendatario);
