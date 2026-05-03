@@ -1,0 +1,3 @@
+node_modules
+.env
+modulos/solicitudparqueadero/uploads/*
