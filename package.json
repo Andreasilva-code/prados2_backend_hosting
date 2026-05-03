@@ -29,7 +29,7 @@
   "devDependencies": {
     "dotenv": "^16.6.1"
   },
-  "descripcion": "Este es un proyecto del SENA"
+  "descripcion": "Este es un proyecto del SENA",
 
 "scripts": {
   "start": "node app.js" 
