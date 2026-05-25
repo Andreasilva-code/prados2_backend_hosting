@@ -1,11 +1,12 @@
-{
-  "name": "paginaprados2",
+ {
+ "name": "paginaprados2",
   "version": "1.0.0",
   "description": "",
   "keywords": [
     "node",
     "js"
   ],
+
   "repository": {
     "type": "git",
     "url": "(index.js)"
@@ -22,19 +23,16 @@
     "cors": "^2.8.6",
     "express": "^5.1.0",
     "morgan": "^1.10.1",
-    "multer": "^2.1.1",
     "mysql2": "^3.22.2",
     "nodemon": "^3.1.10"
   },
   "devDependencies": {
-    "dotenv": "^16.6.1"
+    
   },
-  "descripcion": "Este es un proyecto del SENA",
 
-"scripts": {
-  "start": "node index.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
+  "descripcion": "Este es un proyecto del SENA"
 }
 
-}
+
+
 
